@@ -1,29 +1,33 @@
 const jokes = document.querySelector("#joke");
 const jokeBtn = document.querySelector("#jokeBtn");
 
-// fetch
-// const generateJokes = () => {
-//   const setHeader = {
-//     headers: {
-//       Accept: "application/json",
-//     },
-//   };
-//   fetch("https://icanhazdadjoke.com", setHeader)
-//     .then((res) => {
-//       return res.json();
-//     })
-//     .then((data) => {
-//       jokes.innerHTML = data.joke;
-//     })
-//     .catch((error) => {
-//       console.log(error);
-//     });
-// };
+/** 
+ * use of fetch
+ * 
+const generateJokes = () => {
+  const setHeader = {
+    headers: {
+      Accept: "application/json",
+    },
+  };
+  fetch("https://icanhazdadjoke.com", setHeader)
+    .then((res) => {
+      return res.json();
+    })
+    .then((data) => {
+      jokes.innerHTML = data.joke;
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+};
 
-// jokeBtn.addEventListener("click", generateJokes);
-// generateJokes();
+jokeBtn.addEventListener("click", generateJokes);
+generateJokes();
 
-// Async await
+**/
+
+// async await
 const generateJokes = async () => {
   try {
     const setHeader = {
