@@ -17,7 +17,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
 }
-h3{
+h3 span{
     text-align: center;
     color: gray;
     font-family: cursive;
