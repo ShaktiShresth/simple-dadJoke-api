@@ -1,0 +1,46 @@
+body{
+    background: rgb(20, 113, 20);
+}
+.container{
+    margin: auto;
+    height: 200px;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h3 span{
+    text-align: center;
+    color: gray;
+    font-family: cursive;
+    font-style: italic;
+}
+.joke{
+    font-style: italic;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+}
+#jokeBtn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font: bold;
+    background: green;
+}
+#jokeBtn:hover{
+    background: rgb(7, 97, 7);
+    transition: 0.3s;
+    color: white;
+}
